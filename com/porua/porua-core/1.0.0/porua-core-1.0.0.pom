@@ -21,11 +21,6 @@
 						<pkg>com.porua.core.generated</pkg>
 						<connectors>
 							<param>com.porua.core.flow.Flow</param>
-							<param>com.porua.core.processor.component.JavaComponent</param>
-							<param>com.porua.core.processor.component.PayloadSetter</param>
-							<param>com.porua.core.processor.component.VariableSetter</param>
-							<param>com.porua.core.processor.json.JsonToJava</param>
-							<param>com.porua.core.processor.json.JsonToXml</param>
 						</connectors>
 					</configuration>
 				</plugin>

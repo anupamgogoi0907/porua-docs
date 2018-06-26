@@ -32,29 +32,35 @@
 
 		<!-- Logic specific -->
 		<dependency>
+			<groupId>com.porua</groupId>
+			<artifactId>porua-core</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
 			<artifactId>xmlbeans</artifactId>
 			<version>2.6.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.squareup</groupId>
 			<artifactId>javapoet</artifactId>
 			<version>1.10.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.porua</groupId>
-			<artifactId>porua-core</artifactId>
-			<version>1.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.22.0-GA</version>
 		</dependency>
-
-
+		<dependency>
+			<groupId>org.eclipse.aether</groupId>
+			<artifactId>aether-api</artifactId>
+			<version>1.1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.aether</groupId>
+			<artifactId>aether-util</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -71,39 +77,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-plugin-plugin</artifactId>
-					<version>3.4</version>
-				</plugin>
-				<!--This plugin's configuration is used to store Eclipse m2e settings 
-					only. It has no influence on the Maven build itself. -->
-				<plugin>
-					<groupId>org.eclipse.m2e</groupId>
-					<artifactId>lifecycle-mapping</artifactId>
-					<version>1.0.0</version>
-					<configuration>
-						<lifecycleMappingMetadata>
-							<pluginExecutions>
-								<pluginExecution>
-									<pluginExecutionFilter>
-										<groupId>
-											org.apache.maven.plugins
-										</groupId>
-										<artifactId>
-											maven-plugin-plugin
-										</artifactId>
-										<versionRange>
-											[3.4,)
-										</versionRange>
-										<goals>
-											<goal>descriptor</goal>
-										</goals>
-									</pluginExecutionFilter>
-									<action>
-										<ignore></ignore>
-									</action>
-								</pluginExecution>
-							</pluginExecutions>
-						</lifecycleMappingMetadata>
-					</configuration>
+					<version>3.5.2</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>

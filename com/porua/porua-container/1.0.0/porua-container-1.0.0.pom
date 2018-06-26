@@ -15,21 +15,6 @@
 			<artifactId>porua-core</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.porua</groupId>
-			<artifactId>porua-db</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.porua</groupId>
-			<artifactId>porua-http</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.porua</groupId>
-			<artifactId>porua-jms</artifactId>
-			<version>1.0.0</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<plugins>
