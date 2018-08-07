@@ -21,6 +21,9 @@
 						<pkg>com.porua.core.generated</pkg>
 						<connectors>
 							<param>com.porua.core.flow.Flow</param>
+							<param>com.porua.core.flow.SubFlow</param>
+							<param>com.porua.core.flow.FlowReference</param>
+							<param>com.porua.core.control.PoruaSwitch</param>
 						</connectors>
 					</configuration>
 				</plugin>
