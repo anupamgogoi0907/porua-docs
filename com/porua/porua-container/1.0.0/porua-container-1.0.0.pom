@@ -47,6 +47,9 @@
 							<mainClass>com.porua.container.PoruaContainer</mainClass>
 							<classpathPrefix>lib/</classpathPrefix>
 						</manifest>
+						<manifestEntries>
+							<Class-Path>modules/porua-api-router-1.0.0.jar</Class-Path>
+						</manifestEntries>
 					</archive>
 				</configuration>
 			</plugin>
